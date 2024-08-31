@@ -1,0 +1,2 @@
+salario = float(input('Digite o seu salario atual: '))
+print(f'Salario anual sem dissidio: R${salario * 12}\nValor do dissidio: R${salario * 1.15:.2f}\nValor do salario anual com o dissidio: R${(salario * 12) + (salario * 1.15):.2f}')
